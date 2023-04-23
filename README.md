@@ -105,4 +105,4 @@ ____
 - [Отчет](https://github.com/EvMiakushin/golang-final-work/-/blob/master/2023_03_15.png )
 
 ____
-Для работы димпломного проекта нужен симулятор https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/tree/master/sim
+Для работы димпломного проекта нужен симулятор https://github.com/EvMiakushin/golang-final-work/-/tree/master/sim
