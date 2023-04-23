@@ -102,7 +102,7 @@ type ResultSetT struct {
 ____
 
 ### Отчет о состоянии систем:
-- [Отчет](https://github.com/EvMiakushin/golang-final-work/-/blob/main/2023_03_15.png )
+- [Отчет](https://github.com/EvMiakushin/golang-final-work/blob/main/2023_03_15.png )
 
 ____
-Для работы димпломного проекта нужен симулятор https://github.com/EvMiakushin/golang-final-work/-/tree/main/sim
+Для работы димпломного проекта нужен симулятор https://github.com/EvMiakushin/golang-final-work/tree/main/sim
