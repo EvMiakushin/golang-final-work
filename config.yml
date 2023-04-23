@@ -1,0 +1,8 @@
+mms_url: "http://127.0.0.1:8383/mms"
+sms_file: "sim/sms.data"
+vicl_file: "sim/voice.data"
+mail_file: "sim/email.data"
+bill_file: "sim/billing.data"
+support_url: "http://127.0.0.1:8383/support"
+incident_url: "http://127.0.0.1:8383/accendent"
+port: ":8282"
