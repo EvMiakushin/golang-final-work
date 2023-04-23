@@ -26,19 +26,3 @@ func GetConfig() *Config {
 	}
 	return config
 }
-
-/*
-func LoadConfig(filePath string) (*Config, error) {
-	data, err := os.ReadFile(filePath)
-	if err != nil {
-		return nil, err
-	}
-	config := &Config{}
-	err = yaml.Unmarshal(data, config)
-	if err != nil {
-		return nil, err
-	}
-	return config, nil
-}
-*/
-

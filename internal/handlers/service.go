@@ -100,28 +100,3 @@ func (s *Service) checkCacheData(result harvest.ResultT) harvest.ResultT {
 	}
 	return result
 }
-
-/*func (s *Service) GetCacheData() harvest.ResultT {
-	mutex.Lock()
-	defer mutex.Unlock()
-	if time.Since(s.lastRun) < 5*time.Second {
-		return s.cache
-	}
-
-	conf := config.GetConfig()
-
-	sms := harvest.ReadAndSortSms(conf.SmsFile)
-	mms := harvest.MmsBase(conf.MmsUrl)
-	vicl := harvest.ViclBase(conf.ViclFile)
-	mail := harvest.MailBase(conf.MailFile)
-	bill := harvest.BillingBase(conf.BillFile)
-	supp := harvest.SupportBase(conf.SupportUrl)
-	incid := harvest.IncidentBase(conf.IncidentUrl)
-
-	result := harvest.GetResultData(sms, mms, vicl, mail, bill, supp, incid)
-
-	s.cache = s.checkCacheData(result)
-	s.lastRun = time.Now()
-
-	return result
-}*/
