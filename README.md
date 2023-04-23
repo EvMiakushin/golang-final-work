@@ -13,7 +13,7 @@ ____
 ____
 
 ### Системы:
-- [SMS](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/sms.go):
+- [SMS](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/sms.go):
 ```GO
 type SMSData struct {
 	Country      string `json:"country"`
@@ -23,7 +23,7 @@ type SMSData struct {
 } 
 ```
 
-- [MMS](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/mms.go):
+- [MMS](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/mms.go):
 ```GO
 type MMSData struct {
 	Country      string `json:"country"`
@@ -33,7 +33,7 @@ type MMSData struct {
 }
 ```
 
-- [Voice Call](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/vicl.go):
+- [Voice Call](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/vicl.go):
 ```GO
 type VoiceCallData struct {
 	Country             string  `json:"country"`
@@ -47,7 +47,7 @@ type VoiceCallData struct {
 }
 ```
 
-- [Support](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/support.go):
+- [Support](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/support.go):
 ```GO
 type SupportData struct {
 	Topic         string `json:"topic"`
@@ -55,7 +55,7 @@ type SupportData struct {
 }
 ```
 
-- [Email](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/mail.go):
+- [Email](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/mail.go):
 ```GO
 type EmailData struct {
 	Country      string `json:"country"`
@@ -64,7 +64,7 @@ type EmailData struct {
 }
 ```
 
-- [Incidents](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/incident.go):
+- [Incidents](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/incident.go):
 ```GO
 type IncidentData struct {
 	Topic  string `json:"topic"`
@@ -72,7 +72,7 @@ type IncidentData struct {
 }
 ```
 
-- [Billings](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/billing.go):
+- [Billings](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/billing.go):
 ```GO
 type BillingData struct {
 	CreateCustomer bool
@@ -87,7 +87,7 @@ type BillingData struct {
 ____
 
 ### Сбор данных:
-- [Result](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/result.go):
+- [Result](https://github.com/EvMiakushin/golang-final-work/-/blob/main/internal/harvest/result.go):
 ```GO
 type ResultSetT struct {
 	SMS       [][]SMSData              `json:"sms"`
@@ -102,7 +102,7 @@ type ResultSetT struct {
 ____
 
 ### Отчет о состоянии систем:
-- [Отчет](https://github.com/EvMiakushin/golang-final-work/-/blob/master/2023_03_15.png )
+- [Отчет](https://github.com/EvMiakushin/golang-final-work/-/blob/main/2023_03_15.png )
 
 ____
-Для работы димпломного проекта нужен симулятор https://github.com/EvMiakushin/golang-final-work/-/tree/master/sim
+Для работы димпломного проекта нужен симулятор https://github.com/EvMiakushin/golang-final-work/-/tree/main/sim
