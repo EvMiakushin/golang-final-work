@@ -1,9 +1,9 @@
 #### Оглавление:
 ____
-1. [Дипломный проект](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/#дипломный-проект).
-2. [Системы](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/#системы).
-3. [Сбор данных](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/#сбор-данных).
-4. [Отчет о состоянии систем](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/#отчет-о-состоянии-систем).
+1. [Дипломный проект](https://github.com/EvMiakushin/golang-final-work/#дипломный-проект).
+2. [Системы](https://github.com/EvMiakushin/golang-final-work/#системы).
+3. [Сбор данных](https://github.com/EvMiakushin/golang-final-work/#сбор-данных).
+4. [Отчет о состоянии систем](https://github.com/EvMiakushin/golang-final-work/#отчет-о-состоянии-систем).
 ____
 
 ## Дипломный проект
@@ -13,7 +13,7 @@ ____
 ____
 
 ### Системы:
-- [SMS](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/sms.go):
+- [SMS](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/sms.go):
 ```GO
 type SMSData struct {
 	Country      string `json:"country"`
@@ -23,7 +23,7 @@ type SMSData struct {
 } 
 ```
 
-- [MMS](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/mms.go):
+- [MMS](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/mms.go):
 ```GO
 type MMSData struct {
 	Country      string `json:"country"`
@@ -33,7 +33,7 @@ type MMSData struct {
 }
 ```
 
-- [Voice Call](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/vicl.go):
+- [Voice Call](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/vicl.go):
 ```GO
 type VoiceCallData struct {
 	Country             string  `json:"country"`
@@ -47,7 +47,7 @@ type VoiceCallData struct {
 }
 ```
 
-- [Support](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/support.go):
+- [Support](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/support.go):
 ```GO
 type SupportData struct {
 	Topic         string `json:"topic"`
@@ -55,7 +55,7 @@ type SupportData struct {
 }
 ```
 
-- [Email](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/mail.go):
+- [Email](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/mail.go):
 ```GO
 type EmailData struct {
 	Country      string `json:"country"`
@@ -64,7 +64,7 @@ type EmailData struct {
 }
 ```
 
-- [Incidents](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/incident.go):
+- [Incidents](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/incident.go):
 ```GO
 type IncidentData struct {
 	Topic  string `json:"topic"`
@@ -72,7 +72,7 @@ type IncidentData struct {
 }
 ```
 
-- [Billings](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/billing.go):
+- [Billings](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/billing.go):
 ```GO
 type BillingData struct {
 	CreateCustomer bool
@@ -87,7 +87,7 @@ type BillingData struct {
 ____
 
 ### Сбор данных:
-- [Result](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/internal/harvest/result.go):
+- [Result](https://github.com/EvMiakushin/golang-final-work/-/blob/master/internal/harvest/result.go):
 ```GO
 type ResultSetT struct {
 	SMS       [][]SMSData              `json:"sms"`
@@ -102,7 +102,7 @@ type ResultSetT struct {
 ____
 
 ### Отчет о состоянии систем:
-- [Отчет](https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/blob/master/2023_03_15.png )
+- [Отчет](https://github.com/EvMiakushin/golang-final-work/-/blob/master/2023_03_15.png )
 
 ____
 Для работы димпломного проекта нужен симулятор https://gitlab.skillbox.ru/evgenii_miakushin/go-final-dpo/-/tree/master/sim
